@@ -1,0 +1,25 @@
+.papel {
+  background: #F8EEDB;
+  border: 1px solid #BBA681;
+  padding: 35px 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+
+  text-align: center;
+  color: #634A30;
+}
+
+hr{
+  border:solid black 3px;
+  border-radius:100%;
+}
+
+button{
+  background:none;
+  border:none;
+  font-style:oblique;
+  border-bottom: solid 3px #634A30;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Para Heloisa</title>
+
+    <link rel="stylesheet" href="Css/tudoHome.css">
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <button onclick="irPara('index.html')">Home</button>
+        <button onclick="irPara('sobre.html')">Sobre Você</button>
+        <button onclick="irPara('musicas.html')">Músicas</button>
+        <button onclick="irPara('mensagem.html')">Mensagem especial</button>
+      </nav>
+    </header>
+
+    <div class="conteudo1">
+      
+      <div class="bem-vinda">
+        <h2>
+          Bem vinda ao site que fiz para você
+          <br>
+          (você importa muito para mim)
+        </h2>
+        <h3>☆~Eu te amo, minha bobinha~☆</h3>
+        <p>Espero que goste. Mesmo sendo algo bobo (e de nerd)</p>
+      </div>
+
+      <div class="coisas-boas">
+        <h3>
+        "coisas boas vão acontecer."
+        </h3>
+        <p>As vezes parece que não, mas eu sei que vão acontecer. Num futuro incerto e cheio de receios, eu continuo acreditando que possamos ficar juntos.</p>
+      </div>
+      
+    </div>
+
+    <div class="conteudo2">
+
+      <div class="elementoPai2">
+        
+        <div class="sobre-voce">
+        <h3>Sobre Você</h3>
+          <p>São algumas coisas que eu gostaria de falar mesmo sendo tímido sobre você</p>
+          <button onclick="irPara('sobre.html')">Veja Sobre Você</button>
+        </div>
+
+        <div class="batata-frita">
+          <h3>Batata Frita = Felicidade</h3>
+          <p>Meio óbvio. Batatinha frita é mui baum</p>
+          <br>
+          <h3>Você = Minha Paixão</h3>
+          <p>Tinha que questionar isso? Acho que não. Eu realmente te amo e você é minha paixão</p>
+          <br>
+          <h3>Meu Coração = Seu</h3>
+          <p>Meio que eu ja me entreguei. Nem precisava dizer isso de novo né?</p>
+          <br>
+        </div>
+        
+      </div>
+
+      
+      <div class="elementoPai3">
+        
+        <div class="perguntas">
+        <h3><u>Perguntas de sim ou não</u></h3>
+          <input type="checkbox" id="1"><label>Ja me fez sorrir?</label><br>
+          <input type="checkbox" id="2"><label>Se tornou minha pessoa fav?</label><br>
+          <input type="checkbox" id="3"><label>Acha que eu valho a pena para a vida?</label><br>
+          <input type="checkbox" id="4"><label>Gostaria de assistir saiko comigo um dia?</label><br>
+          <input type="checkbox" id="5"><label>Você... realmente... no FUTURO, tem chances de aceitar namorar comigo?</label><br><br>
+          <button onclick="responder()">Enviar resposta(Fim da Pagina)</button><br><br>
+        </div>
+
+        <div class="musica">
+          <h3>Algumas musicas</h3>
+          <p>São algumas músicas que lembram você, seja por você gostar ou por realmente me recordarem a ti</p>
+          <button onclick="irPara('musicas.html')">Ouvir elas aqui</button>
+        </div>
+        
+      </div>
+      
+    </div>
+
+    <div class="planeje">
+          <h3>Meu coração é seu</h3>
+          <p>As vezes me pergunto o porquê de eu estar tão perdidamente apaixonado por você.</p>
+          <p>Sinceramente... acho que nem se eu soubesse mais sobre meu cérebro eu saberia responder isso.</p>
+          <p>No fim. Sou um pouco bobo por te amar tanto.</p>
+    </div>
+
+    <div>
+      <p id="resposta-Perguntas"></p>
+    </div>
+    <footer>♡~☆Obrigado por existir, Heloisa☆~♡</footer>
+
+    <script src="Js/scriptHome.js"></script>
+  </body>
+</html>

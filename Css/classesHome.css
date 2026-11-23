@@ -1,0 +1,38 @@
+.conteudo1, .conteudo2, .conteudo3{
+  background:none;
+  border:none;
+  padding:1% 2%;
+
+  display: flex;
+
+  margin:0;
+}
+
+.bem-vinda{
+  min-width: 56%;
+  max-width: 56%;
+}
+
+.coisas-boas{
+  min-width: 36%;
+  max-width: 36%;
+}
+
+.to-do-list, .sobre-voce{
+  min-width: 96%;
+  max-width: 96%;
+}
+
+.conteudo2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 96%;
+}
+
+.elementoPai2, .elementoPai3 {
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+  min-width: 0;
+}

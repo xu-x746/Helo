@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uma carta simples.</title>
+  <link rel="stylesheet" href="Css/styleMensagem.css">
+</head>
+<body>
+
+  <button onclick="irPara('index.html')">Voltar</button>
+
+  <main class="container">
+
+    <!-- Carta fechada -->
+    <div class="envelope" id="envelope">
+      <div class="papel">
+        <span class="icone">✉</span>
+        <h2>Para alguém especial</h2>
+        <p>Uma carta esperando para ser aberta...</p>
+        <span class="selo">♥</span>
+        <small>Clique para abrir</small>
+      </div>
+    </div>
+
+    <!-- Janela da carta -->
+    <div class="fundo-modal" id="fundoModal">
+
+      <div class="janela">
+
+        <header>
+          <span>CARTA Nº 001</span>
+          <button id="fechar">×</button>
+        </header>
+
+        <div class="conteudo">
+          <h2>Minha querida...</h2>
+
+          <p id="textoCarta"></p>
+
+          <span class="cursor"></span>
+        </div>
+
+        <footer>
+          <small>AGUARDANDO ESCRITA...</small>
+        </footer>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="Js/scriptMensagem.js"></script>
+</body>
+</html>
